@@ -10,11 +10,11 @@ section.programa {
 }
 
 section.programa>.titulo {
-    color: #161616;
+    color: #3d046b;
     font-family: Poppins, sans-serif;
-    font-size: 2.4rem;
+    font-size: 1.6rem;
     line-height: 3rem;
-    font-weight: 400;
+    font-weight: bold;
 }
 
 /*.organizacion .name a:hover {
@@ -155,10 +155,10 @@ section.programa li:last-child:before {
 section.programa li .hora {
     float: left;
     width: 6rem;
-    text-align: right;
+    text-align: center;
     color: #767676;
     font-family: Poppins, sans-serif;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     font-weight: 400;
     line-height: 2.8rem;
     margin-right: 3rem;
@@ -170,7 +170,7 @@ section.programa li>.titulo {
     font-family: Poppins, sans-serif;
     font-size: 1.8rem;
     font-weight: 400;
-    line-height: 2.8rem;
+    line-height: 2.5rem;
 }
 
 section.programa li>.titulo strong {
@@ -179,11 +179,11 @@ section.programa li>.titulo strong {
 
 section.programa li .charla {
     float: left;
-    width: 58rem;
+    width: 50rem;
     /*max-width: 40rem; /* nuevooo!!!*/
     font-family: Poppins, sans-serif;
-    font-size: 1.5rem;
-    line-height: 2.8rem;
+    font-size: 1.3rem;
+    line-height: 1.7rem;
     overflow: hidden;
     margin-top: 0.4rem;
     /*margin-left: 0rem;*/
@@ -193,6 +193,7 @@ section.programa li .charla {
 li .charla img {
     float: left;
     width: 5.5rem;
+    min-width: 2rem;
     margin-right: 2rem;
     margin-bottom: 1rem;
 }
@@ -200,11 +201,12 @@ li .charla img {
 
 li .charla .nombre {
     font-weight: 700;
-    /*color: #474747;
-    font-size: 1.2rem;
-    line-height: 1.5rem;*/
+    /*color: #474747;*/
+    /*font-size: 1.2rem;
+    line-height: 1.6rem;
     margin-bottom: 0.5rem;
-    margin-top:-0.5rem;
+    margin-top:0.5rem;
+    text-align: justify;
     /*
     margin-left: 6.5rem;
     max-width: 40rem; /*NUEEEVO*/
