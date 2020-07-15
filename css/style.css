@@ -1024,6 +1024,19 @@ body:after {
     border-radius: 40px;
 }
 
+.servicepro {
+    padding: 30px;
+    background: #f2f2f2;
+    -webkit-box-shadow: 0 1px 2px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 2px 0px rgba(0, 0, 0, 0.1);
+    -webkit-transition: .3s all ease-in-out;
+    -o-transition: .3s all ease-in-out;
+    transition: .3s all ease-in-out;
+    top: 0;
+    position: relative;
+    border-radius: 30px;
+}
+
 .service .svg-icon {
     margin-right: 20px;
 }
@@ -1612,13 +1625,13 @@ body:after {
     margin-left: 120px;
 }*/
 
-.descripcion{
+/*.descripcion{
     font-size: 18px;
     text-align: justify;
     max-width: 700px;
     margin-left: 120px;
     
-}
+}*/
 
 
 .cuadronombre{
@@ -1634,7 +1647,7 @@ body:after {
 }
 
 .nombreponente{
-    font-size: 17px;
+    font-size: 20px;
     text-align: justify;
     color: #430f5a;
     font-weight: bold;
@@ -1668,7 +1681,7 @@ body:after {
 }
 
 .bandera{
-    margin-top: -0.2rem;
+    margin-bottom: 1.3rem;
 }
 
 
