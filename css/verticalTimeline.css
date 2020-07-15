@@ -243,30 +243,43 @@ section.programa li>.titulo strong {
 
 section.programa li .charla {
     float: left;
-    width: 80rem;
+    width: 55rem;
+    /*max-width: 40rem; /* nuevooo!!!*/
     font-family: Poppins, sans-serif;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     line-height: 2.8rem;
     overflow: hidden;
     margin-top: 0.4rem;
+    margin-left: 0rem;
 }
 
 li .charla img {
     float: left;
     width: 5.5rem;
-    margin-right: 2rem;
-    margin-bottom: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1.5rem;
+    margin-left: 0.8rem;    
 }
+
 
 li .charla .nombre {
     font-weight: 700;
-    /*color: #e42f67;*/
+    color: #474747;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
     margin-bottom: 0.5rem;
-    margin-top: -0.5rem;
+    margin-top: 1rem;
+    margin-left: 6.5rem;
+    max-width: 40rem; /*NUEEEVO*/
 }
 
 li .charla .titulo {
     font-style: italic;
+    font-size: 1rem;
+    line-height: 1.8rem;
+    align-content: center;
+    text-align: justify;
+    max-width: 40rem; /*NUEEEVO*/
 }
 
 li .charla .pendiente {
@@ -286,6 +299,7 @@ li .charla .titulo em {
 li .charla .titulo span {
     display: none;
 }
+
 
 
 /* media queries tablet  */
