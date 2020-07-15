@@ -28,7 +28,7 @@ section.programa>.titulo {
 }*/
 .link,
 a {
-    color: #e42f67;
+    color: /*#e42f67*/ #841cb4;
 }
 
 .programa .evento h2 {
@@ -212,11 +212,11 @@ li .charla .nombre {
 
 li .charla .titulo {
     font-style: italic;
-    /*font-size: 1rem;
+    font-size: 1rem;
     line-height: 1.8rem;
-    align-content: center;
-    text-align: justify;
-    max-width: 40rem; /*NUEEEVO*/
+    /*align-content: center;
+    text-align: justify;*/
+    max-width: 50rem; /*NUEEEVO*/
 }
 
 li .charla .pendiente {
