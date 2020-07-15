@@ -71,10 +71,8 @@
                     </div>
                     <div class="col-3">
                         <div>
-                            <h3>
-                              <ul class="m-0 text-nowrap site-menu">
-                                <li><a href="#inicio-section">COWIE INSPIRE</a></li>
-                              </ul>
+                            <h3 class="site-menu">
+                              <a class="text-nowrap" href="#inicio-section">COWIE INSPIRE</a>
                             </h3>
                         </div>
                     </div>
@@ -83,9 +81,10 @@
                         <nav class="site-navigation position-relative text-right" role="navigation">
                             <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
                                 <!-- <li><a href="#inicio-section" class="nav-link">Inicio</a></li> -->
+
                                 <li><a href="#evento-section" class="nav-link">Evento</a></li>
                                 <li><a href="#ponentes-section" class="nav-link">Ponentes</a></li>
-                                <li><a href="#cowies-section" class="nav-link">CoWIEs</a></li>
+                                <!--<li><a href="#cowies-section" class="nav-link">CoWIEs</a></li>-->
                                 <li><a href="#programa0-section" class="nav-link">Programa</a></li>
                                 <li><a href="#equipo-section" class="nav-link">Equipo</a></li>
                             </ul>
@@ -181,7 +180,7 @@
                             <div>
                                 <div class="service-about" >
                                     <div>
-                                    <img src="images/Banderas/chile.png" width="35px"/>
+                                    <img src="images/Banderas/chile.png" class="img-fluid bandera" width="35px"/>
                                     <span class="nombreponente">BARBARITA LARA</span>
                                     </div>
                                     <p class="p">Emprendedora tecnológica apasionada por la innovación social y la educación STEAM. 
@@ -227,7 +226,7 @@
                             </div>
                             <div class="service-about">
                                 <div>
-                                <img src="images/Banderas/españa.png" width="45px"/>
+                                <img src="images/Banderas/españa.png" class="img-fluid bandera" width="35px"/>
                                 <span class="nombreponente">ANNA REIG</span>
                                 </div>
                                 <p class="p">Mi nombre es Anna Reig y soy Ingeniera de Telecomunicaciones e Ingeniera Aeronáutica por la 
@@ -256,7 +255,7 @@
                             </div>
                             <div class="service-about">
                                 <div>
-                                <img src="images/Banderas/españa.png"  width="40px"/>
+                                <img src="images/Banderas/españa.png" class="img-fluid bandera" width="35px"/>
                                 <span class="nombreponente">MARIA VILLARROYA</span>
                                 </div>
                                 <p class="p">María Villarroya Gaudó (Soria, 1977)Licenciada en Ciencias Físicas en la Universidad de Zaragoza (2000)
@@ -290,7 +289,7 @@
                             </div>
                             <div class="service-about">
                                 <div>
-                                <img src="images/Banderas/colombia.jpg" width="35px"/>
+                                <img src="images/Banderas/colombia.jpg" class="img-fluid bandera" width="35px"/>
                                 <span class="nombreponente">GIOVANNA RAMIREZ</span>
                                 </div>
                                 <p class="p">Ingeniera Electrónica de la Escuela Colombiana de Ingeniería Julio Garavito. 
@@ -322,7 +321,7 @@
                             </div>
                             <div class="service-about">
                                 <div>
-                                <img src="images/Banderas/colombia.jpg"  width="30px"/>
+                                <img src="images/Banderas/colombia.jpg"  width="35px"/>
                                 <span class="nombreponente">-----</span>
                                 </div>
                                 <p class="p">-----.</p>
@@ -351,7 +350,7 @@
                             </div>
                             <div class="service-about">
                                 <div>
-                                <img src="images/Banderas/venezuela.jpg"  width="40px"/>
+                                <img src="images/Banderas/venezuela.jpg"  class="img-fluid bandera" width="35px"/>
                                 <span class="nombreponente">ANGELICA LANDAZABAL</span>
                                 </div>
                                 <p class="p">Soy ingeniero en informática y amante de la tecnología.  He participado cómo voluntaria, 
@@ -378,7 +377,7 @@
                             </div>
                             <div class="service-about">
                                 <div>
-                                <img src="images/Banderas/colombia.jpg"  width="35px"/>
+                                <img src="images/Banderas/colombia.jpg" class="img-fluid bandera" width="35px"/>
                                 <span class="nombreponente">ANA SALAZAR</span>
                                 </div>
                                 <p></p>
@@ -404,7 +403,7 @@
                             </div>
                             <div class="service-about">
                                 <div>
-                                <img src="images/Banderas/bolivia.jpg"  width="45px"/>
+                                <img src="images/Banderas/bolivia.jpg"class="img-fluid bandera"  width="35px"/>
                                 <span class="nombreponente">LESLY ZERNA</span>
                                 </div>
                                 <p></p>
@@ -445,6 +444,34 @@
 
         <!-- COWIES ANTERIORES -->
         
+        <!-- Control buttons -->
+        <!--
+        <div id="myBtnContainer">
+            <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+            <button class="btn" onclick="filterSelection('cars')"> Cars</button>
+            <button class="btn" onclick="filterSelection('animals')"> Animals</button>
+            <button class="btn" onclick="filterSelection('fruits')"> Fruits</button>
+            <button class="btn" onclick="filterSelection('colors')"> Colors</button>
+        </div>-->
+  
+        <!-- The filterable elements. Note that some have multiple class names (this can be used if they belong to multiple categories) -->
+        <!--
+        <div class="container">
+            <div class="filterDiv cars">BMW</div>
+            <div class="filterDiv colors fruits">Orange</div>
+            <div class="filterDiv cars">Volvo</div>
+            <div class="filterDiv colors">Red</div>
+            <div class="filterDiv cars animals">Mustang</div>
+            <div class="filterDiv colors">Blue</div>
+            <div class="filterDiv animals">Cat</div>
+            <div class="filterDiv animals">Dog</div>
+            <div class="filterDiv fruits">Melon</div>
+            <div class="filterDiv fruits animals">Kiwi</div>
+            <div class="filterDiv fruits">Banana</div>
+            <div class="filterDiv fruits">Lemon</div>
+            <div class="filterDiv animals">Cow</div>
+        </div>
+        
         <section class="site-section block__62272" id="cowies-section">
 
             <div class="container">
@@ -456,18 +483,20 @@
 
 
                 <div class="row justify-content-center mb-5 aos-animate" data-aos="fade">
+                    
                     <div id="filters" class="filters text-center button-group col-md-7">
-                        <button class="btn btn-primary active" data-filter=".todos">Todos</button>
+                        <button class="btn btn-primary" data-filter=".todos">Todos</button>
                         <button class="btn btn-primary" data-filter=".web">2019</button>
                         <button class="btn btn-primary" data-filter=".design">2018</button>
                         <button class="btn btn-primary" data-filter=".brand">2017</button>
                     </div>
+                
                 </div>
 
 
                 <div id="posts"  class="row no-gutter">
 
-                    <div class="item todos web col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
+                    <div class="item web todos col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
                         <a href="images/cowies/2019_.png" class="item-wrap fancybox">
                             <span class="icon-search2"></span>
                             <img class="img-fluid" src="images/cowies/2019_.png">
@@ -820,80 +849,78 @@
                     </div>
 
                     <section class="programa">
-                        <span class="dias">Lunes, 20 Julio </span>
+                        <p class="titulo">Lunes, 20 Julio </p>
                         <ul>
                             <li>
                                 <span class="hora">08:30</span>
                                 <div class="charla">
+
                                     <a href="#"><img src="images/logo.png" alt="Image" class="img-fluid foto"></a>
-                                    <p class="nombre">Apertura COWIE INSPIRE</p>
+                                    <p class="nombre text-nowrap">Apertura COWIE INSPIRE</p>
+                                    <!-- <p class="titulo text-justify">Apertura COWIE INSPIRE</p> -->
 
                                 </div>
                             </li>
                             <li>
                                 <span class="hora">09:00</span>
                                 <div class="charla">
+
                                     <a href="#"><img src="images/ponentes/mariavillarroya.png" alt="Maria" class="img-fluid foto"></a>
-                                    <p class="nombre">¿Cómo y por qué despertar más vocaciones
-                                        para que hayan más mujeres en ingeniería?
-                                    </p>
-                                    
-                                    <p class="titulo">Descripción de la charla</p>
+                                    <p class="nombre text-wrap">¿Cómo y por qué despertar más vocaciones para que hayan más mujeres en ingeniería?</p>
+                                    <p class="titulo text-justify">Descripción de la charla</p>
+
                                 </div>
                             </li>
                         </ul>
                     </section>
 
                     <section class="programa">
-
-                        <span class="dias ">Martes, 21 Julio </span>
+                        <p class="titulo">Martes, 21 Julio</p>
                         <ul>
                             <li>
                                 <span class="hora">08:30</span>
                                 <div class="charla">
+
                                     <a href="#"><img src="images/logo.png" alt="Image" class="img-fluid foto"></a>
-                                    <p class="nombre">Equipo</p>
-                                    <p class="titulo">Presentación</p>
+                                    <p class="nombre text-wrap">Equipo</p>
+                                    <p class="titulo text-justify">Presentación</p>
+
                                 </div>
                             </li>
                             <li>
                                 <span class="hora">09:00</span>
                                 <div class="charla">
                                     <a href="#ponentes-section"><img src="images/ponentes/anna.jpg" alt="Anna" class="img-fluid foto"></a>
-                                    <p class="nombre">¿Cómo tener éxito siendo mujer en un mundo masculinizado?</p>
-                                    <p class="titulo">Descripción de la charla<!--<span>,</span><em title="Presentación en Inglés">English</em>--></p>
-                                    
+                                    <p class="nombre text-wrap">¿Cómo tener éxito siendo mujer en un mundo masculinizado?</p>
+                                    <p class="titulo text-justify">Descripción de la charla<span>,</span><em title="Presentación en Inglés">English</em></p>
+
 
                                 </div>
                             </li>
                             <li class="cafe">
-                                <span class="descripcion">Nos vemos más tarde</span>
+                                <span class="hora text-nowrap">Nos vemos más tarde</span>
                             </li>
                             <li>
                                 <span class="hora">18:00</span>
                                 <div class="charla">
                                     <a href="#"><img src="images/ponentes/angelica.jpg" alt="Angélica" class="img-fluid foto"></a>
-                                    <p class="nombre">Introducción al Web Scraping</p>
-                                    <p class="titulo">Explicaré de una manera práctica los procesos que actualmente se utilizan
-                                    para realizar la extracción efectiva de datos en la web y los mecanismos que se pueden utilizar 
-                                    para almacenarlos.</p>
+                                    <p class="nombre text-wrap">Introducción al Web Scraping</p>
+                                    <p class="titulo text-justify">Explicaré de una manera práctica los procesos que actualmente se utilizan para realizar la extracción efectiva de datos en la web y los mecanismos que se pueden utilizar para almacenarlos.</p>
                                 </div>
                             </li>
                         </ul>
-
-                    </section>        
+                    </section>
 
                     <section class="programa">
+                        <p class="titulo">Miércoles, 22 Julio</p>
 
-                        <span class="dias">Miércoles, 22 Julio </span> 
-                        
                         <ul>
                             <li>
                                 <span class="hora">17:30</span>
                                 <div class="charla">
                                     <a href="#"><img src="images/logo.png" class="foto" alt="Equipo WIE-USCO"></a>
-                                    <p class="nombre">Equipo</p>
-                                    <p class="titulo">Presentación</p>
+                                    <p class="nombre text-wrap">Equipo</p>
+                                    <p class="titulo text-justify">Presentación</p>
                                 </div>
                             </li>
 
@@ -901,65 +928,59 @@
                                 <span class="hora">18:00</span>
                                 <div class="charla">
                                     <a href="#"><img src="images/ponentes/giovana.jpg" alt="Image" class="img-fluid foto"></a>
-                                    <p class="nombre">Un día en el espacio con IEEE</p>
-                                    <p class="titulo">En esta conferencia quiero explicarles y mostrarles
-                                        la evolución de los sistemas electrónicos aeroespaciales, haciendo énfasis 
-                                        en los satélites, cohetes, rovers y proyectos de investigación en el área.</p>
+                                    <p class="nombre text-wrap">Un día en el espacio con IEEE</p>
+                                    <p class="titulo text-justify">En esta conferencia quiero explicarles y mostrarles la evolución de los sistemas electrónicos aeroespaciales, haciendo énfasis en los satélites, cohetes, rovers y proyectos de investigación en el área.</p>
                                 </div>
                             </li>
                         </ul>
                     </section>
 
-
                     <section class="programa">
-
-                        <span class="dias">Jueves, 23 Julio </span>
+                        <p class="titulo">Jueves, 23 Julio</p>
 
                         <ul>
-
                             <li>
                                 <span class="hora">08:30</span>
                                 <div class="charla">
                                     <a href="#"><img src="images/logo.png" alt="Image" class="img-fluid foto"></a>
-                                    <p class="nombre">Equipo</p>
-                                    <p class="titulo">Presentación
-
-                                    </p>
+                                    <p class="nombre text-wrap">Equipo</p>
+                                    <p class="titulo text-justify">Presentación</p>
                                 </div>
                             </li>
+
                             <li>
                                 <span class="hora">09:00</span>
                                 <div class="charla">
                                     <a href="#"><img src="images/wieco1.png" alt="Sergio Estella" class="img-fluid foto"></a>
-                                    <p class="nombre">Título taller Lesly</p>
-                                    <p class="titulo">Descripción Taller </p>
+                                    <p class="nombre text-wrap">Título taller Lesly</p>
+                                    <p class="titulo text-justify">Descripción Taller </p>
                                 </div>
                             </li>
+
                             <li class="cafe">
-                                <span class="descripcion">Nos vemos más tarde</span>
+                                <span class="hora text-nowrap">Nos vemos más tarde</span>
                             </li>
                             <li>
                                 <span class="hora">18:00</span>
                                 <div class="charla">
                                     <a href="#"><img src="images/wieco1.png" alt="Image" class="img-fluid foto"></a>
-                                    <p class="nombre">Título Charla</p>
-                                    <p class="titulo">Descripción charla</p>
+                                    <p class="nombre text-wrap">Título Charla</p>
+                                    <p class="titulo text-justify">Descripción charla</p>
                                 </div>
                             </li>
-
                         </ul>
                     </section>
 
                     <section class="programa">
+                        <p class="titulo">Viernes, 24 Julio</p>
 
-                        <span class="dias">Viernes, 24 Julio </span>
                         <ul>
                             <li>
                                 <span class="hora">08:30</span>
                                 <div class="charla">
                                     <a href="#"><img src="images/logo.png" alt="Image" class="img-fluid foto"></a>
-                                    <p class="nombre">Equipo</p>
-                                    <p class="titulo">Presentación</p>
+                                    <p class="nombre text-wrap">Equipo</p>
+                                    <p class="titulo text-justify">Presentación</p>
                                 </div>
                             </li>
 
@@ -967,49 +988,45 @@
                                 <span class="hora">09:00</span>
                                 <div class="charla">
                                     <a href="#"><img src="images/ponentes/barbarita.jpg" alt="Image" class="img-fluid foto"></a>
-                                    <p class="nombre">Hacer Posible lo Imposible</p>
-                                    <p class="titulo">Descripción de la charla</p>
+                                    <p class="nombre text-wrap">Hacer Posible lo Imposible</p>
+                                    <p class="titulo text-justify">Descripción de la charla</p>
                                 </div>
                             </li>
 
                             <li class="cafe">
-                                <span class="descripcion">Nos vemos más tarde</span>
+                                <span class="hora text-nowrap">Nos vemos más tarde</span>
                             </li>
 
                             <li>
                                 <span class="hora">18:00</span>
                                 <div class="charla">
                                     <a href="#"><img src="images/wieco1.png" alt="Nacho Gil" class="img-fluid foto"></a>
-                                    <p class="nombre">Título Charla Lesly</p>
-                                    <p class="titulo">Descripción Charla</p>
+                                    <p class="nombre text-wrap">Título Charla Lesly</p>
+                                    <p class="titulo text-justify">Descripción Charla</p>
                                 </div>
                             </li>
-
-                            
                         </ul>
-
-
                     </section>
 
                     <section class="programa">
+                        <p class="titulo">Sábado, 25 Julio</p>
 
-                        <span class="dias">Sábado, 25 Julio </span>
                         <ul>
                             <li>
                                 <span class="hora">09:30</span>
                                 <div class="charla">
                                     <a href="#"><img src="images/logo.png" alt="Image" class="img-fluid foto"></a>
-                                    <p class="nombre cuadronombre">Equipo</p>
-                                    <p class="titulo descripcion">Presentación</p>
+                                    <p class="nombre text-wrap">Equipo</p>
+                                    <p class="titulo text-justify">Presentación</p>
                                 </div>
                             </li>
-                            
+
                             <li>
                                 <span class="hora">10:00</span>
                                 <div class="charla">
                                     <a href="#"><img src="images/wieco1.png" alt="Nacho Gil" class="img-fluid foto"></a>
-                                    <p class="nombre cuadronombre">Título Taller Ana Salazar</a></p>
-                                    <p class="titulo descripcion">Descripción Taller</p>
+                                    <p class="nombre text-wrap">Título Taller Ana Salazar</p>
+                                    <p class="titulo text-justify">Descripción Taller</p>
                                 </div>
                             </li>
 
@@ -1017,8 +1034,8 @@
                                 <span class="hora">11:00</span>
                                 <div class="charla">
                                     <a href="#"><img src="images/wieco1.png" alt="Nacho Gil" class="img-fluid foto"></a>
-                                    <p class="nombre cuadronombre">Título post-taller Ana Salazar></p>
-                                    <p class="titulo descripcion">Descripción Post-Taller:</p>
+                                    <p class="nombre text-wrap">Título post-taller Ana Salazar></p>
+                                    <p class="titulo text-justify">Descripción Post-Taller:</p>
                                 </div>
                             </li>
 
@@ -1026,16 +1043,18 @@
                                 <span class="hora">12:00</span>
                                 <div class="charla">
                                     <a href="#"><img src="images/logo.png" alt="Image" class="img-fluid foto"></a>
-                                    <p class="nombre cuadronombre">Cierre</p>
-                                    <p class="titulo descripcion">Despedida y agradecimientos</p>
+                                    <p class="nombre text-wrap">Cierre</p>
+                                    <p class="titulo text-justify">Despedida y agradecimientos</p>
                                 </div>
                             </li>
                         </ul>
-
-
+                    </section>
                 </div>
             </div>
         </section>
+
+
+
 
 
 
@@ -1350,10 +1369,10 @@
             <div class="container">
                 <div class="row mb-5">
                 <div class="col-md-3">
-                        <h3 class="footer-title">Follow Us</h3>
-                        <a href="https://twitter.com/UscoWie" class="social-circle m-2"><span class="icon-twitter"></span></a>
-                        <a href="https://www.facebook.com/WIEUSCO" class="social-circle m-2"><span class="icon-facebook"></span></a>
-                        <a href="https://www.instagram.com/wieusco/" class="social-circle m-2"><span class="icon-instagram"></span></a>
+                        <h3 class="footer-title footerico">Follow Us</h3>
+                        <a href="https://twitter.com/UscoWie" class="social-circle m-2"><span class="icon-twitter footerico"></span></a>
+                        <a href="https://www.facebook.com/WIEUSCO" class="social-circle m-2"><span class="icon-facebook footerico"></span></a>
+                        <a href="https://www.instagram.com/wieusco/" class="social-circle m-2"><span class="icon-instagram footerico"></span></a>
                     </div>
                 </div>
             
