@@ -169,7 +169,7 @@ sup {
 }
 
 a {
-    color: #692884;
+    color: /*#692884*/ #613288;
     text-decoration: none;
     background-color: transparent;
 }
@@ -7294,9 +7294,14 @@ button.bg-danger:focus {
     background-color: #bd2130 !important;
 }
 
+.bg-footer{
+    background-color: /*#fbf6ff*/ #f1e0ff !important;
+}
+
 .bg-light {
     background-color: #f8f9fa !important;
 }
+
 
 a.bg-light:hover,
 a.bg-light:focus,
