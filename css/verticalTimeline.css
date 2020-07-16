@@ -79,7 +79,7 @@ a {
 }
 
 section.programa {
-    margin-top: 5rem;
+    margin-top: 1rem;
     text-align: left;
     padding-bottom: 1rem;
 }
@@ -193,9 +193,11 @@ section.programa li .charla {
 li .charla img {
     float: left;
     width: 5.5rem;
-    min-width: 2rem;
-    margin-right: 2rem;
-    margin-bottom: 4.3rem;
+    min-width: 0.8rem;
+    margin-right: 1rem;
+    margin-bottom: 0.5rem;
+    margin-left: 0rem;
+   
 }
 
 
@@ -215,7 +217,7 @@ li .charla .nombre {
 li .charla .titulo {
     font-style: italic;
     font-size: 1rem;
-    line-height: 1.8rem;
+    line-height: 1.5rem;
     /*align-content: center;
     text-align: justify;*/
     max-width: 50rem; /*NUEEEVO*/
