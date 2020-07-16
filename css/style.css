@@ -859,10 +859,29 @@ body:after {
 
 .sticky-wrapper .site-navbar .site-menu>li>a {
     color: #f6e1ff;
+    filter: drop-shadow(2px 2px 6px black);
 }
 
 .sticky-wrapper .site-navbar .site-menu>a {
     color: #f6e1ff;
+    filter: drop-shadow(2px 2px 6px black);
+}
+
+.sticky-wrapper .site-navbar .container .logoWIE {
+    filter: hue-rotate(0) brightness(5) drop-shadow(1px 1px 7px black);
+    width: 50px !important;
+    height: 50px !important;
+    margin: 0px 0px;
+    padding: 0px;
+}
+
+@media(max-width: 991.98px) {
+    .sticky-wrapper .site-navbar .container .logoWIE {
+        width: 40px !important;
+        height: 40px !important;
+        margin: 0px -20px;
+        max-width: 45px;
+    }
 }
 
 .sticky-wrapper .site-navbar .site-menu>li>a:hover,
@@ -895,10 +914,16 @@ body:after {
 
 .sticky-wrapper.is-sticky .site-navbar .site-menu>li>a {
     color: #613288 !important;
+    filter: none !important;
 }
 
 .sticky-wrapper.is-sticky .site-navbar .site-menu>a {
     color: #613288 !important;
+    filter: none !important;
+}
+
+.sticky-wrapper.is-sticky .site-navbar .container .logoWIE {
+    filter: none !important;
 }
 
 .sticky-wrapper.is-sticky .site-navbar .site-menu>li>a:hover,
