@@ -20,6 +20,7 @@
 
     <link rel="stylesheet" href="css/timelineStyle.css">
     <link rel="stylesheet" href="css/verticalTimeline.css">
+    <link rel="stylesheet" href="css/moreLess.css">
 
     <link rel="stylesheet" href="css/aos.css">
     <link rel="stylesheet" href="css/style.css">
@@ -101,21 +102,21 @@
 
 
 
-        <div class="site-blocks-cover overlay bg-light" style="background-image: url('images/wieco2.png') ; "  id="inicio-section">
+        <div class="site-blocks-cover overlay bg-light" style="background-image: url('images/wieco2.png') ; " id="inicio-section">
             
             <div class="container">
                 <div class="row justify-content-center">
-                <div class="col-12 text-center align-self-center text-intro">
-                <div class="row justify-content-center">
-                <div class="col-lg-4 shadow col-md-2 col-sm-2"  style="background-color: rgba(31, 3, 49, 0.6); border-radius: 50px;" >
-                <h1 class="text-white text-nowrap" data-aos="fade-up" data-aos-delay="">Te esperamos</h1>
-                <p class="lead text-white" data-aos="fade-up" data-aos-delay="100">Inspírate y crece junto a nosotras</p>
-                <p><a href="https://forms.gle/aPC8MUP5gK8jFRKm6" target="_blank" class="btn  btn-primary">Inscríbete</a></p>
+                    <div class="col-12 text-center align-self-center text-intro">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-4 shadow col-md-2 col-sm-2" style="background-color: rgba(31, 3, 49, 0.6); border-radius: 50px;">
+                                <h1 class="text-white text-nowrap" data-aos="fade-up" data-aos-delay="">Te esperamos</h1>
+                                <p class="lead text-white" data-aos="fade-up" data-aos-delay="100">Inspírate y crece junto a nosotras</p>
+                                <p><a href="https://forms.gle/aPC8MUP5gK8jFRKm6" target="_blank" class="btn  btn-primary">Inscríbete</a></p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                </div>
-                </div>
-                </div>
-                </div>
+            </div>
         </div>
 
             <!-- <div class="container">
@@ -151,16 +152,16 @@
                         <h2 class="section-title encabezado">ACERCA DEL EVENTO</h2>
                     </div>
                     <div class="col-lg-4">
-                        <p class="text-justify">Inspire es el nombre que recibe nuestro COWIE 4.0, un evento organizado por nosotras
-                            un grupo de afinidad WIE IEEE de la Universidad Surcolombiana de Neiva-Huila, con finalidad
-                            de motivar e incentivar a las niñas, jóvenes y mujeres </p>
+                        <p class="text-justify">Inspire es el nombre que recibe nuestro COWIE 4.0, un evento organizado por nosotras,
+                            un grupo de afinidad WIE IEEE de la Universidad Surcolombiana de Neiva-Huila, con el objetivo
+                            de motivar e incentivar a niñas, jóvenes y mujeres </p>
                     </div>
                     <div class="col-lg-4">
                         <img src="images/cowies/2019_.png" alt="CoWIE 2019" class="img-fluid fotoevento">
                     </div>
                     <div class="col-lg-4">
                         <p class="text-justify">a estudiar carreras afines a las áreas de ingeniería, ciencia y tecnología, para así mismo impulsar 
-                            el empoderamiento de la mujer en los diferentes campos de trabajo.</p>
+                            el empoderamiento de la mujer en los diferentes campos laborales.</p>
                         <p style="font-family: cursive; font-size: smaller; text-align: center;"  >“Si no puedes darme poesía, ¿no puedes al menos darme ciencia poética?” Ada Lovelace.</p>
                     </div>
 
@@ -193,32 +194,46 @@
                                 </div>
                             </div>
                             <div>
-                                <div class="service-about" >
+                                <div class="service-about">
                                     <div>
-                                    <img src="images/Banderas/chile.png" class="img-fluid bandera" width="30px"/>
-                                    <span class="nombreponente">BARBARITA LARA</span>
+                                        <img src="images/Banderas/chile.png" class="img-fluid bandera" width="30px" />
+                                        <span class="nombreponente">BARBARITA LARA</span>
                                     </div>
-                                    <p class="p">Emprendedora tecnológica apasionada por la innovación social y la educación STEAM. 
-                                       Conferencista motivacional internacional, cofundadora y CEO de EMERCOM.
-                                       Embajadora corporativa de Samsung y Líder del proyecto S!E, Sistema que permite 
-                                       enviar mensajes de emergencia a la población afectada por un desastre natural incluso
-                                       cuando no hay internet o redes móviles.
-                                    
-                                       Galardonada como “Chilena Innovadora del Año”, “Chilena
-                                       Inventora del Año”, una de las 100 mujeres líderes del 2018,
-                                       World Summit Award winner y la primera chilena en estar en la
-                                       lista mundial de innovadores menores de 35 años de la
-                                       prestigiosa revista del MIT (Instituto Tecnológico de
-                                       Massachusetts), MIT Technology Review.
-                                       Desde el comienzo de S!E, Barbarita se ha convertido en un
-                                       modelo a seguir para las mujeres y niñas, con un talento
-                                       excepcional para liderar iniciativas en el sector tecnológico que
-                                       la han hecho participar en diferentes eventos e instituciones que
-                                       ayudan a fomentar la educación STEAM, empoderar a mujeres
-                                       y emprendedores tecnológicos, donde ella comparte
-                                       experiencias y conocimientos para alentar a otros a hacer un
-                                       mundo mejor, buscar innovaciones significativas y lograr hacer
-                                       posible lo imposible.</p>
+    
+                                    <!-- check read more/less -->
+                                    <input type="checkbox" class="read-more-state1" id="post-1" />
+    
+                                    <!-- read more/less -->
+                                    <p class="p read-more-wrap1">Emprendedora tecnológica apasionada por la innovación social y la educación STEAM. 
+                                        Conferencista motivacional internacional, cofundadora y CEO de EMERCOM.
+                                        Embajadora corporativa de Samsung y Líder del proyecto S!E, Sistema que permite 
+                                        enviar mensajes de emergencia a la población afectada por un desastre natural incluso
+                                        cuando no hay internet o redes móviles.
+                                     
+                                        Galardonada como “Chilena Innovadora del Año”, “Chilena
+                                        Inventora del Año”, una de las 100 mujeres líderes del 2018,
+                                        World Summit Award winner
+                                        <!-- text read more/less -->
+                                        <span class="read-more-target1">
+                                            y la primera chilena en estar en la
+                                           lista mundial de innovadores menores de 35 años de la
+                                           prestigiosa revista del MIT (Instituto Tecnológico de
+                                           Massachusetts), MIT Technology Review.
+                                           Desde el comienzo de S!E, Barbarita se ha convertido en un
+                                           modelo a seguir para las mujeres y niñas, con un talento
+                                           excepcional para liderar iniciativas en el sector tecnológico que
+                                           la han hecho participar en diferentes eventos e instituciones que
+                                           ayudan a fomentar la educación STEAM, empoderar a mujeres
+                                           y emprendedores tecnológicos, donde ella comparte
+                                           experiencias y conocimientos para alentar a otros a hacer un
+                                           mundo mejor, buscar innovaciones significativas y lograr hacer
+                                           posible lo imposible.
+                                        </span>
+                                    </p>
+    
+                                    <!-- btn read more/less -->
+                                    <label for="post-1" class="read-more-trigger1"></label>
+    
                                 </div>
                                 <div class="mt-1 pt-1">
                                     <a href="https://twitter.com/barbaritalaram" class="social-circle m-2" target="_blank"><span class="icon-twitter"></span></a>
@@ -241,17 +256,32 @@
                             </div>
                             <div class="service-about">
                                 <div>
-                                <img src="images/Banderas/españa.png" class="img-fluid bandera" width="30px"/>
-                                <span class="nombreponente">ANNA REIG</span>
+                                    <img src="images/Banderas/españa.png" class="img-fluid bandera" width="30px" />
+                                    <span class="nombreponente">ANNA REIG</span>
                                 </div>
-                                <p class="p">Mi nombre es Anna Reig y soy Ingeniera de Telecomunicaciones e Ingeniera Aeronáutica por la 
-                                   Universidad Politécnica de Catalunya (España). Actualmente estoy terminando un máster de Logística 
-                                   y Cadena de Suministro (Supply Chain) en Cranfield University (Reino Unido) al mismo tiempo que he 
-                                   empezado un MBA online en ThePowerMBA. Quedé primera en ambas promociones de Ingeniería e hice un 
-                                   trabajo de final de estudios llamado "A diagnostic and prevention system for mosquito-transmitted 
-                                   diseases" por el cual he recibido dos premios. Mi charla va a consistir en explicar por qué decidí 
-                                   estudiar ingeniería, cuál ha sido mi recorrido hasta el momento, a qué retos me he enfrentado como 
-                                   mujer y terminaré sugiriendo algunas ideas de cómo tener éxito en este mundo masculinizado.</p>
+    
+                                <!-- check read more/less ##-->
+                                <input type="checkbox" class="read-more-state2" id="post-2" />
+    
+                                <!-- read more/less -->
+                                <p class="p read-more-wrap2">Mi nombre es Anna Reig y soy Ingeniera de Telecomunicaciones e Ingeniera Aeronáutica por la 
+                                    Universidad Politécnica de Catalunya (España). Actualmente estoy terminando un máster de Logística 
+                                    y Cadena de Suministro (Supply Chain) en Cranfield University (Reino Unido) al mismo tiempo que he 
+                                    empezado un MBA online en ThePowerMBA. Quedé primera en ambas promociones de Ingeniería e hice un 
+                                    trabajo de final de estudios llamado "A diagnostic and prevention system for mosquito-transmitted 
+                                    diseases"
+    
+                                    <!-- text read more/less # -->
+                                    <span class="read-more-target2">
+                                        por el cual he recibido dos premios. Mi charla va a consistir en explicar por qué decidí 
+                                       estudiar ingeniería, cuál ha sido mi recorrido hasta el momento, a qué retos me he enfrentado como 
+                                       mujer y terminaré sugiriendo algunas ideas de cómo tener éxito en este mundo masculinizado.
+                                    </span>
+                                </p>
+    
+                                <!-- btn read more/less ##-->
+                                <label for="post-2" class="read-more-trigger2"></label>
+    
                             </div>
                             <div class="mt-1 pt-1">
                                 <!--<a href="#" class="social-circle m-2"><span class="icon-twitter"></span></a>-->
@@ -270,26 +300,41 @@
                             </div>
                             <div class="service-about">
                                 <div>
-                                <img src="images/Banderas/españa.png" class="img-fluid bandera" width="30px"/>
-                                <span class="nombreponente">MARIA VILLARROYA</span>
+                                    <img src="images/Banderas/españa.png" class="img-fluid bandera" width="30px" />
+                                    <span class="nombreponente">MARIA VILLARROYA</span>
                                 </div>
-                                <p class="p">María Villarroya Gaudó (Soria, 1977)Licenciada en Ciencias Físicas en la Universidad de Zaragoza (2000)
+    
+                                <!-- check read more/less ##-->
+                                <input type="checkbox" class="read-more-state3" id="post-3" />
+    
+                                <!-- read more/less -->
+                                <p class="p read-more-wrap3">María Villarroya Gaudó (Soria, 1977)Licenciada en Ciencias Físicas en la Universidad de Zaragoza (2000)
                                     y doctora por la Universidad Autónoma de Barcelona (2005), en el programa de doctorado de Ingeniería Electrónica.
                                     Entre 2001 y 2003 estuvo como investigadora en el Departamento de Ingeniería electrónica de la UAB. En 2003 
                                     se incorporó a la Universidad de Zaragoza, en la actualidad es Profesora Titular del área de Arquitectura 
-                                    y Tecnología de Computadores de la Escuela de Ingeniería y Arquitectura. Primera directora del Observatorio 
-                                    de Igualdad de la Universidad de Zaragoza (2008-2012) y actualmente directora de Secretariado de 
-                                    Internacionalización en esa universidad (desde 2016). Presidenta de AMIT-Aragón desde 2012, promotora de 
-                                    Girls' Day Aragón y de Una ingeniera en cada cole. Autora y Editora del libro El Mundo necesita Ingenieras 
-                                    ¿quieres ser una? (2013) y de diversos artículos científicos y de divulgación.</p>
+                                    y Tecnología de Computadores de la Escuela de Ingeniería y Arquitectura.
+    
+                                    <!-- text read more/less # -->
+                                    <span class="read-more-target3">
+                                        Primera directora del Observatorio 
+                                        de Igualdad de la Universidad de Zaragoza (2008-2012) y actualmente directora de Secretariado de 
+                                        Internacionalización en esa universidad (desde 2016). Presidenta de AMIT-Aragón desde 2012, promotora de 
+                                        Girls' Day Aragón y de Una ingeniera en cada cole. Autora y Editora del libro El Mundo necesita Ingenieras 
+                                        ¿quieres ser una? (2013) y de diversos artículos científicos y de divulgación.
+                                    </span>
+                                </p>
+    
+                                <!-- btn read more/less ##-->
+                                <label for="post-3" class="read-more-trigger3"></label>
+    
                             </div>
                             <!--<div class="mt-1 pt-1">
-                                <a href="#" class="social-circle m-2"><span class="icon-twitter"></span></a>
-                                <a href="#" class="social-circle m-2"><span class="icon-facebook"></span></a>
-                                <a href="#" class="social-circle m-2"><span class="icon-instagram"></span></a>
-                                
-                                <a href="#" class="social-circle m-2"><span class="icon-linkedin"></span></a>
-                            </div>-->
+                                    <a href="#" class="social-circle m-2"><span class="icon-twitter"></span></a>
+                                    <a href="#" class="social-circle m-2"><span class="icon-facebook"></span></a>
+                                    <a href="#" class="social-circle m-2"><span class="icon-instagram"></span></a>
+                                    
+                                    <a href="#" class="social-circle m-2"><span class="icon-linkedin"></span></a>
+                                </div>-->
                         </div>
                     </div>
 
@@ -304,17 +349,32 @@
                             </div>
                             <div class="service-about">
                                 <div>
-                                <img src="images/Banderas/colombia.jpg" class="img-fluid bandera" width="30px"/>
-                                <span class="nombreponente">GIOVANNA RAMIREZ</span>
+                                    <img src="images/Banderas/colombia.jpg" class="img-fluid bandera" width="30px" />
+                                    <span class="nombreponente">GIOVANNA RAMIREZ</span>
                                 </div>
-                                <p class="p">Ingeniera Electrónica de la Escuela Colombiana de Ingeniería Julio Garavito. 
+    
+                                <!-- check read more/less ##-->
+                                <input type="checkbox" class="read-more-state4" id="post-4" />
+    
+                                <!-- read more/less -->
+                                <p class="p read-more-wrap4">Ingeniera Electrónica de la Escuela Colombiana de Ingeniería Julio Garavito. 
                                     Estudiante de maestría en Desarrollo y Gerencia Integral de Proyectos. Actual presidente 
                                     del capítulo profesional Aerospace & Electronic Systems Society (AESS- IEEE). Investigadora 
                                     y desarrolladora de una misión espacial colombiana en Japón a través de un satélite. 
                                     Ha participado en diferentes proyectos de investigación con la Fuerza Aérea Colombiana, 
-                                    El Consorcio Global Espacial, IEEE y NASA. Tiene reconocimientos tales como: 
-                                    Best Young professional IEEE 2019. Emprendedora del año 2018 con el premio 'JULIO GARAVITO' 
-                                    y Autora del invento "Genius Pamper".</p>
+                                    El Consorcio Global Espacial, IEEE y NASA.
+    
+                                    <!-- text read more/less # -->
+                                    <span class="read-more-target4">
+                                        Tiene reconocimientos tales como: 
+                                        Best Young professional IEEE 2019. Emprendedora del año 2018 con el premio 'JULIO GARAVITO' 
+                                        y Autora del invento "Genius Pamper".
+                                    <span>
+                                </p>
+    
+                                <!-- btn read more/less ##-->
+                                <label for="post-4" class="read-more-trigger4"></label>
+    
                             </div>
                             <div class="mt-1 pt-1">
                                 
@@ -367,13 +427,30 @@
                             </div>
                             <div class="service-about">
                                 <div>
-                                <img src="images/Banderas/venezuela.jpg"  class="img-fluid bandera" width="30px"/>
-                                <span class="nombreponente">ANGELICA LANDAZABAL</span>
+                                    <img src="images/Banderas/venezuela.jpg" class="img-fluid bandera" width="30px" />
+                                    <span class="nombreponente">ANGELICA LANDAZABAL</span>
                                 </div>
+    
+                                <!-- check read more/less ##-->
+                                <!-- <input type="checkbox" class="read-more-state5" id="post-5" /> -->
+    
+                                <!-- read more/less -->
+                                <!-- <p class="p read-more-wrap5"> -->
                                 <p class="p">Soy ingeniera en informática y amante de la tecnología.  He participado cómo voluntaria, 
-                                mentora y speaker en diferentes eventos TIC.  Me gusta enseñar a las personas a entender 
-                                conceptos sobre programación y diseño (aunque en cocina y karate también :D ); y si no sé 
-                                la respuesta, ¡no importa! La investigamos en la web ;).</p>
+                                    mentora y speaker en diferentes eventos TIC.  Me gusta enseñar a las personas a entender 
+                                    conceptos sobre programación y diseño (aunque en cocina y karate también :D ); y si no sé 
+                                    la respuesta, ¡no importa! La investigamos en la web ;).
+    
+                                    <!-- text read more/less # -->
+                                    <!-- <span class="read-more-target5"> -->
+    
+                                    <!-- </span> -->
+    
+                                </p>
+    
+                                <!-- btn read more/less ##-->
+                                <!-- <label for="post-5" class="read-more-trigger5"></label> -->
+    
                             </div>
                             <div class="mt-1 pt-1">
                                 <a href="https://twitter.com/ALandazabal15" class="social-circle m-2" target="_blank"><span class="icon-twitter"></span></a>
@@ -389,22 +466,43 @@
                         <div class="service h-100">
                             <div class="col pb-2 mb-2 w-75 mx-auto">
                                 <div class="foto1">
-                                <img src="images/ponentes/anasalazar.jpeg" alt="Ana Salazar" class="img-fluid foto">
+                                <img src="images/ponentes/anasalazar1.jpeg" alt="Ana Salazar" class="img-fluid foto">
                                 </div>
                             </div>
                             <div class="service-about">
                                 <div>
-                                <img src="images/Banderas/colombia.jpg" class="img-fluid bandera" width="30px"/>
-                                <span class="nombreponente">ANA SALAZAR</span>
+                                    <img src="images/Banderas/colombia.jpg" class="img-fluid bandera" width="30px" />
+                                    <span class="nombreponente">ANA SALAZAR</span>
                                 </div>
-                                <p class="p">Ingeniera de Telecomunicaciones, Profesional I+D en Ruta N Medellin.</p>
+    
+                                <!-- check read more/less ##-->
+                                <!-- <input type="checkbox" class="read-more-state6" id="post-6" /> -->
+    
+                                <!-- read more/less -->
+                                <!-- <p class="p read-more-wrap4"> -->
+                                <p class="p">Ingeniera de Telecomunicaciones, especialista en Gerencia de Proyectos y Magister 
+                                    en Gestión Tecnológica. Trabaja en la Corporación Ruta N, un centro de innovación y negocios 
+                                    en la ciudad de Medellín, Colombia, como líder de proyectos en tecnologías de información y comunicaciones. 
+                                    Tiene experiencia en la estructuración y ejecución de  proyectos de ciencia, tecnología e innovación. 
+                                    Apasionada por la articulación y fortalecimiento de comunidades técnicas y de visibilizar el rol de la mujer en la tecnología.
+    
+                                    <!-- text read more/less # -->
+                                    <!-- <span class="read-more-target6"> -->
+    
+                                    <!-- </span> -->
+    
+                                </p>
+    
+                                <!-- btn read more/less ##-->
+                                <!-- <label for="post-6" class="read-more-trigger6"></label> -->
+    
                             </div>
                             <div class="mt-1 pt-1">
                                 <a href="https://twitter.com/analasalazar" target="_blank" class="social-circle m-2"><span class="icon-twitter"></span></a>
                                 <a href="https://www.facebook.com/analasalazar" target="_blank" class="social-circle m-2"><span class="icon-facebook"></span></a>
-                                <!--<a href="https://www.youtube.com/watch?v=EYbnxVZw2BQ" target="_blank" class="social-circle m-2"><span class="icon-youtube"></span></a>-->
+                                <!-- <a href="https://www.youtube.com/watch?v=EYbnxVZw2BQ" target="_blank" class="social-circle m-2"><span class="icon-youtube"></span></a> -->
                                 <!--<a href="#" class="social-circle m-2"><span class="icon-instagram"></span></a>
-                                <a href="#" class="social-circle m-2"><span class="icon-dribbble"></span></a>-->
+                                    <a href="#" class="social-circle m-2"><span class="icon-dribbble"></span></a>-->
                                 <a href="https://www.linkedin.com/in/analasalazar/" class="social-circle m-2"><span class="icon-linkedin"></span></a>
                             </div>
                         </div>
@@ -421,13 +519,30 @@
                             </div>
                             <div class="service-about">
                                 <div>
-                                <img src="images/Banderas/bolivia.jpg"class="img-fluid bandera"  width="30px"/>
-                                <span class="nombreponente">LESLY ZERNA</span>
+                                    <img src="images/Banderas/bolivia.jpg" class="img-fluid bandera" width="30px" />
+                                    <span class="nombreponente">LESLY ZERNA</span>
                                 </div>
-                                <p class="p">Soy Ingeniera de software, conferencista y voluntaria de Bolivia, actualmente vagando por Centroamérica.
-                                    Google Dev Expert en Machine Learning, Mentora en UDACITY, Profesora en línea en PLATZI y Coordinadora de 
-                                    América Latina para CITY.AI & SCHOOL OF AI. Mis intereses van desde la fotografía hasta la tecnología.
-                                    También estoy interesada en la música, el emprendimiento y los viajes.</p>
+    
+                                <!-- check read more/less ##-->
+                                <!-- <input type="checkbox" class="read-more-state7" id="post-7" /> -->
+    
+                                <!-- read more/less -->
+                                <!-- <p class="p read-more-wrap7"> -->
+                                <p class="p">Lesly Zerna. Google Developer Expert en Machine Learning. Mentora en Google 
+                                    Launchpad. Educadora en Tecnología, dirige la comunidad MentorHer que busca incentivar 
+                                    a más chicas a involucrarse en tecnología. TEDx speaker 2018. Becaria Patiño en la 
+                                    maestría de Ciencias de Computación e Ingeniería en la Universidad Libre de Bruselas.
+    
+                                    <!-- text read more/less # -->
+                                    <!-- <span class="read-more-target7"> -->
+    
+                                    <!-- </span> -->
+    
+                                </p>
+    
+                                <!-- btn read more/less ##-->
+                                <!-- <label for="post-7" class="read-more-trigger7"></label> -->
+    
                             </div>
                             <div class="mt-1 pt-1">
                                 <a href="https://twitter.com/leslysandra" target="_blank" class="social-circle m-2"><span class="icon-twitter"></span></a>
@@ -811,7 +926,7 @@
                 </div>
             </div>
 
-        </section>
+        </section>-->
 
     
 
@@ -888,7 +1003,9 @@
 
                                     <a href="#"><img src="images/ponentes/mariavillarroya.png" alt="Maria" class="img-fluid" style="border-radius: 50px;"></a>
                                     <p class="nombre text-wrap">¿Cómo y por qué despertar más vocaciones para que hayan más mujeres en ingeniería?</p>
-                                    <p class="titulo text-justify">Descripción de la charla</p>
+                                    <p class="titulo text-justify">Una charla donde se dará a conocer la importancia de motivar a las mujeres desde corta edad a 
+                                        participar en las areas STEM, especialmente en las ingenierías, cuales son los obstaculos y como empezar con esta 
+                                        importante labor.</p>
 
                                 </div>
                             </li>
@@ -951,7 +1068,7 @@
                             <li>
                                 <span class="hora">18:00</span>
                                 <div class="charla">
-                                    <a href="#"><img src="images/ponentes/giovana.jpg" alt="Image" class="img-fluid" style="border-radius: 50px;"></a>
+                                    <a href="#"><img src="images/ponentes/giovana.jpg" alt="Giovanna" class="img-fluid" style="border-radius: 50px;"></a>
                                     <p class="nombre text-wrap">Un día en el espacio con IEEE</p>
                                     <p class="titulo text-justify">En esta conferencia quiero explicarles y mostrarles la evolución de los sistemas
                                         electrónicos aeroespaciales, haciendo énfasis en los satélites, cohetes, rovers y proyectos de investigación en el área.</p>
@@ -977,8 +1094,10 @@
                                 <span class="hora">09:00</span>
                                 <div class="charla">
                                     <a href="#"><img src="images/ponentes/lesly.jpeg" alt="Lesly" class="img-fluid" style="border-radius: 50px;"></a>
-                                    <!--<p class="nombre text-wrap">Título taller Lesly</p>
-                                    <p class="titulo text-justify">Descripción Taller </p>-->
+                                    <p class="nombre text-wrap">Primeros pasos en Machine Learning con Python</p>
+                                    <p class="titulo text-justify">Prepara tu computadora, tus conocimientos de programación y ganas de aprender 
+                                        sobre Machine Learning! En este taller hacemos una revisión rápida de de Machine Learning y cómo empezar 
+                                        a aprenderlo y practicarlo con Python. </p>
                                 </div>
                             </li>
 
@@ -1014,7 +1133,7 @@
                             <li>
                                 <span class="hora">09:00</span>
                                 <div class="charla">
-                                    <a href="#"><img src="images/ponentes/barbarita.jpg" alt="Barbarita" class="img-fluid" style="border-radius: 50px; margin-bottom: 3.5rem;"></a>
+                                    <a href="images/ponentes/barbarita.jpg"><img src="images/ponentes/barbarita.jpg" alt="Barbarita" class="img-fluid" style="border-radius: 50px; margin-bottom: 3.5rem;"></a>
                                     <p class="nombre text-wrap">Do What You Can't: A Romper Esquemas</p>
                                     <p class="titulo text-justify">¿Será que los esquemas nos definen, que estamos mal por querer romperlos?, pero me pregunto
                                         ¿Quién los puso ahí? Acompáñame a esta charla, donde podrás vivir conmigo este camino por el emprendimiento,
@@ -1031,8 +1150,9 @@
                                 <span class="hora">18:00</span>
                                 <div class="charla">
                                     <a href="#"><img src="images/ponentes/lesly.jpeg" alt="Lesly" class="img-fluid" style="border-radius: 50px;"></a>
-                                    <!--<p class="nombre text-wrap">Título Charla Lesly</p>
-                                    <p class="titulo text-justify">Descripción Charla</p>-->
+                                    <p class="nombre text-wrap">Quiero estudiar en el exterior y quiero estudiar en inglés</p>
+                                    <p class="titulo text-justify">Muchas veces creemos que estudiar en otro país, es muy complejo y un sueño casi imposible,
+                                        en esta charla, te comparto mi experiencia buscando oportunidades para estudiar y especializarte en el exterior con diferentes becas y apoyos</p>
                                 </div>
                             </li>
                         </ul>
@@ -1054,23 +1174,25 @@
                             <li>
                                 <span class="hora">10:00</span>
                                 <div class="charla">
-                                    <a href="#"><img src="images/ponentes/anasalazar.jpeg" alt="Ana" class="img-fluid" style="border-radius: 50px;"></a>
-                                   <!-- <p class="nombre text-wrap">Título Taller Ana Salazar</p>
-                                    <p class="titulo text-justify">Descripción Taller</p>-->
+                                    <a href="#"><img src="images/ponentes/anasalazar1.jpeg" alt="Ana" class="img-fluid" style="border-radius: 50px;"></a>
+                                    <p class="nombre text-wrap">#IamRemarkable</p>
+                                    <p class="titulo text-justify"># IamRemarkable es una iniciativa que pretende dar voz a mujeres y grupos minoritarios 
+                                        para que pueda hablar sobre sus logros en el trabajo y en otros ámbitos, rompiendo así las normas de la modestia y el techo de cristal.</p>
                                 </div>
                             </li>
+                            <!--
 
                             <li>
                                 <span class="hora">11:00</span>
                                 <div class="charla">
-                                    <a href="#"><img src="images/ponentes/anasalazar.jpeg" alt="Ana" class="img-fluid" style="border-radius: 50px;"></a>
+                                    <a href="#"><img src="images/ponentes/anasalazar.jpeg" alt="Ana" class="img-fluid" style="border-radius: 50px;"></a>-->
                                     <!--<p class="nombre text-wrap">Título post-taller Ana Salazar></p>
                                     <p class="titulo text-justify">Descripción Post-Taller:</p>-->
-                                </div>
-                            </li>
+                                <!--</div>
+                            </li>-->
 
                             <li>
-                                <span class="hora">12:00</span>
+                                <span class="hora">11:00</span>
                                 <div class="charla">
                                     <a href="#"><img src="images/logo.png" alt="Image" class="img-fluid" style="border-radius: 50px;"></a>
                                     <p class="nombre text-wrap">Cierre</p>
@@ -1284,109 +1406,79 @@
 
                     <!-- Three columns of text below the carousel -->
                     <div class="row my-5">
-                        <div class="col-lg-4 equipos">
+
+                        <div class="col col-lg-4 col-md-6 col-sm-6 equipos">
                             <div class="equipo1">
+                                <img class="imageq" src="images/equipo/angelica.png" />
+                            </div>
+                            <span class="equiponombre">Angélica Lesmes</span>
+                        </div>
+
+                        <div class="col col-lg-4 col-md-6 col-sm-6 equipos">
+                            <div class="equipo2">
                                 <img class="imageq" src="images/equipo/heidy.jpeg" />
                             </div>
                             <span class="equiponombre">Heidy Rincón</span>
                         </div>
+
                         <!-- /.col-lg-4 -->
-                        <div class="col-lg-4 col-md-6 equipos">
-                            <div class="equipo2">
+                        <div class="sol col-lg-4 col-md-6 col-sm-6 equipos">
+                            <div class="equipo1">
                                 <img class="imageq" src="images/equipo/karen.png" />
                             </div>
                             <span class="equiponombre">Karen Cerón</span>
                         </div>
+
                         <!-- /.col-lg-4 -->
-                        <div class="col-lg-4 col-md-6 equipos">
-                            <div class="equipo3">
+                        <div class="col-lg-4 col-md-6 col-sm-6 equipos">
+                            <div class="equipo2">
                                 <img class="imageq" src="images/equipo/laura.jpeg" />
                             </div>
                             <span class="equiponombre">Laura Losada</span>
                         </div>
-                        <!-- /.col-lg-4 -->
-                    </div>
-                    <!-- /.row -->
 
-                    <div class="row my-5">
-                        <div class="col-lg-4 equipos">
+                        <!-- /.col-lg-4 -->
+    
+                        <div class="col-lg-4 col-md-6 col-sm-6 equipos">
                             <div class="equipo1">
                                 <img class="imageq" src="images/equipo/luna.png" />
                             </div>
                             <span class="equiponombre">Luna Lugo</span>
                         </div>
+
                         <!-- /.col-lg-4 -->
-                        <div class="col-lg-4 equipos">
+                        <div class="col-lg-4 col-md-6 col-sm-6 equipos">
                             <div class="equipo2">
                                 <img class="imageq" src="images/equipo/mar.png" />
                             </div>
                             <span class="equiponombre">Maria Del Mar Ardila</span>
                         </div>
+
                         <!-- /.col-lg-4 -->
-                        <div class="col-lg-4 equipos">
-                            <div class="equipo3">
+                        <div class="col-lg-4 col-md-6 col-sm-6 equipos">
+                            <div class="equipo1">
                                 <img class="imageq" src="images/equipo/mora.png" />
                             </div>
                             <span class="equiponombre">Maria Paula Mora</span>
                         </div>
-                        <!-- /.col-lg-4 -->
-                    </div>
-                    <!-- /.row -->
-
-                    <div class="row my-5">
-                        <div class="col-lg-4 equipos">
-                            <div class="equipo1">
+    
+                        <div class="col-lg-4 col-md-6 col-sm-6 equipos">
+                            <div class="equipo2">
                                 <img class="imageq" src="images/equipo/nathe.png" />
                             </div>
                             <span class="equiponombre">Nathalie Cabrera</span>
                         </div>
+
                         <!-- /.col-lg-4 -->
-                        <div class="col-lg-4 equipos">
-                            <div class="equipo2">
+                        <div class="col-lg-4 col-md-6 col-sm-6 equipos">
+                            <div class="equipo1">
                                 <img class="imageq" src="images/equipo/tannia.png" />
                             </div>
                             <span class="equiponombre">Tannia Hernandez</span>
                         </div>
-
-                        <!-- /.col-lg-4 -->
-                        <!--<div class="col-lg-4 equipos">
-                            <div class="equipo3">
-                                <img class="imageq" src="images/wieco1.png" />
-                            </div>
-                            <span class="equiponombre">----</span>
-                        </div>-->
-                        <!-- /.col-lg-4 -->
                     </div>
-                    <!-- /.row -->
-
-                    <!--<div class="row my-5">
-                        <div class="col-lg-4 equipos">
-                            <div class="equipo1">
-                                <img class="imageq" src="images/wieco1.png" />
-                            </div>
-                            <span class="equiponombre">----</span>
-                        </div>-->
-                        <!-- /.col-lg-4 -->
-                        <!--<div class="col-lg-4 equipos">
-                            <div class="equipo2">
-                                <img class="imageq" src="images/wieco1.png" />
-                            </div>
-                            <span class="equiponombre">Nathalie Cabrera</span>
-                        </div>-->
-                        <!-- /.col-lg-4 --><!--
-                        <div class="col-lg-4 equipos">
-                            <div class="equipo3">
-                                <img class="imageq" src="images/wieco1.png" />
-                            </div>
-                            <span class="equiponombre">Nathalie Cabrera</span>
-                        </div>-->
-                        <!-- /.col-lg-4 -->
-                    <!--</div>-->
-                    <!-- /.row -->
-
                 </div>
-                <!-- /.container -->
-
+    
             </div>
         </section>
 
