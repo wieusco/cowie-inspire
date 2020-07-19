@@ -1050,20 +1050,6 @@ body:after {
 }
 
 
-.serviced {
-    padding: 30px;
-    background: #f;
-    -webkit-box-shadow: 0 1px 2px 0px rgba(0, 0, 0, 0.1);
-    box-shadow: 0 1px 2px 0px rgba(0, 0, 0, 0.1);
-    -webkit-transition: .3s all ease-in-out;
-    -o-transition: .3s all ease-in-out;
-    transition: .3s all ease-in-out;
-    top: 0;
-    position: relative;
-    border-radius: 40px;
-}
-
-
 
 .servicepro {
     padding: 30px;
@@ -1591,20 +1577,6 @@ body:after {
 }
 
 
-/* .equipo3 {
-    position: relative;
-    margin-left: 95px;
-    margin-bottom: 25px;
-    width: 160px;
-    height: 160px;
-    border-radius: 50%;
-    border: 3px;
-    background: linear-gradient(to right, #B75AC6, #3FC4CF);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
-
 .imageq {
     position: relative;
     top: 0;
@@ -1728,5 +1700,6 @@ body:after {
     border-radius: 12%;
     margin-bottom: 1.3rem;
 }
+
 
 
