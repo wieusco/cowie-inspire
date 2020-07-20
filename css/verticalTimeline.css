@@ -421,7 +421,59 @@ li .charla .titulo span {
     }
 }
 
-@media screen and (max-width: 412px) {
+
+/* Para 600px */  
+@media only screen and (max-width: 620px) and (min-width: 501px) {  
+    .mainMenu ul {
+        width: 23rem;
+    }
+
+    
+li .charla .nombre {
+    font-weight: 700;
+    /*color: #474747;*/
+    /*font-size: 1.2rem;
+    line-height: 1.6rem;
+    margin-bottom: 0.5rem;
+    margin-top:0.5rem;
+    text-align: justify;
+    /*
+    margin-left: 6.5rem;
+    max-width: 40rem; /*NUEEEVO*/
+}
+
+li .charla .titulo {
+    font-style: italic;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-top: 15px;
+    margin-left: 80px;
+    /*align-content: center;
+    text-align: justify;*/
+    max-width: 30rem; /*NUEEEVO*/
+}
+   
+    li .charla img {
+        display: block;
+        float: left;
+        width: 70px;
+        min-width: 0.8rem;
+        margin-right: 1rem;
+       /* margin-bottom: 20px;
+        margin-top: 10px;*/
+        margin-left: 0rem;
+
+       
+    }
+    section.programa li .charla {
+        width: auto;
+        margin: 0.5rem 1.5rem;
+    }
+}
+
+
+
+@media screen and (max-width: 414px ) {
     .mainMenu ul {
         width: 23rem;
     }
@@ -431,7 +483,7 @@ li .charla .titulo span {
         width: 70px;
         align-self: center;    
         margin-left: 65px; 
-        margin-right: 60px;  
+        margin-right: 65px;  
         margin-top: 1rem;
         margin-bottom: 1.5rem;
         
